@@ -1,12 +1,13 @@
-= PRELIMINARY Basic NodeMCU-V2 Development Shield Getting Started Guide
+= PRELIMINARY E707 Basic NodeMCU-V2 Shield Getting Started Guide
 Electro707
 V0.1, 2021-03-09
 :toc:
+:icons: font
 // :doctype: book
 :imagesdir: .images
 <<<
 == Intro
-The purpose of this document is to be used as a "Getting Started" guide for the Basic NodeMCU-V2 Development Shield. This document has been written for a beginner (somebody who has little to no experience with Arduino's or electronics) to get them up and running with the shield and upload a basic example to it.
+The purpose of this document is to be used as a "Getting Started" guide for the E707 Basic NodeMCU-V2 Shield. This document has been written for a beginner (somebody who has little to no experience with Arduino's or electronics) to get them up and running with the shield and upload a basic example to it.
 
 == Prerequesites
 === Components
@@ -15,7 +16,7 @@ You should have the following 2 parts:
 [cols="1,1"]
 |===
 |A NodeMCU V2 Development Board
-|Basic NodeMCU-V2 Development Shield
+|E707 Basic NodeMCU-V2 Shield
 
 a|image:NodeMCU-V2-CP2102-2.jpg[NodeMCU V2 Board Image, 250]
 |Cell in column 2, row 2
@@ -27,7 +28,7 @@ NOTE: This assumes that the shield is already soldered. If it isn't and you have
 
 == Software
 === Arduino IDE
-We will be using the Arduino IDE (Integrated Development Environment) to create programs and upload them to the NodeMCU. While it is the most common way of doing so, there are other tools and IDEs out there, like MicroPython for examples. 
+We will be using the Arduino IDE (Integrated Development Environment) to create programs and upload them to the NodeMCU. While it is the most common way of doing so, there are other tools and IDEs out there like MicroPython for examples. 
 
 If you don't have the Arduino IDE installed on you machine, you should do that now. The program's download page can be found at https://www.arduino.cc/en/software. They have a https://www.arduino.cc/en/Guide[Getting Started Guide] if you're having trouble installing the program.
 
@@ -47,12 +48,12 @@ New let's select the right board to compile and upload to. In the Tools menu, fo
 
 IMAGE HERE
 
-Now let's compile the Blink example we just loaded (turning the human-readable code into machine code). Click on the Compile button in the IDE. If all goes well, the IDE's status bar should say `Done Compiling`. 
+Now let's compile the Blink example we just loaded (turning the human-readable code into machine code). Click on the image:icons/arduino_compile.png[fit=line] Compile button in the IDE. If all goes well, the IDE's status bar should say `Done Compiling`. 
 Now let's plug in the NodeMCU Board into the computer. Use a MicroUSB cable to connect the NodeMCU module to the computer.
 Now go into the Tools menu, and in the Port submenu chose a COM port that isn't COM1 which should appear (or for Linux and Mac users the port which isn't `dev/ttyS0`). 
-Now we are able to upload the program, and we do that by clicking on the Upload button in the IDE. When the status bar of the IDE says `Done Uploading`, the program has been uploaded to the board. 
+Now we are able to upload the program, and we do that by clicking on the image:icons/arduino_upload.png[fit=line] Upload button in the IDE. When the status bar of the IDE says `Done Uploading`, the program has been uploaded to the board. 
 
-You should start noticing that the shield's blue LED (and the middle segment on the 7 segment display) should start blinking. If that's the case, CONGRATULATIONS!, you just uploaded a program on the NodeMCU board with the Basic Dev. Shield. 
+You should start noticing that the shield's blue LED (and the middle segment on the 7 segment display) should start blinking. If that's the case, CONGRATULATIONS, you just uploaded a program on the NodeMCU board with the Basic Dev. Shield. 
 
 == Now What?
 Well really that's up to you. There is a vast possibility of what you can do with the NodeMCU board and the shield, and we've only done a tiny fraction of what's it's capable of (and we haven't started using the Wifi part of the NodeMCU). There are plenty of examples that you can try out, which the ESP8266 board package and the Basic NodeMCU Dev. Shield's library provides. 

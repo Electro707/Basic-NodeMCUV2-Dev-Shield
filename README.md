@@ -1,8 +1,8 @@
 # NOTE: This is a pre-release of the shield/daughterboard, and it's still in development (mainly docs). 
 
-# Basic NodeMCU V2 Development Shield 
+# E707 Basic NodeMCU-V2 Shield 
 
-This shield/daughterboard is for the NodeMCU V2 (also known as NodeMCU DevKit V1) to allow a begineer to have some components to play around with. In this case, that includes a 7-segment display, an RGB LED (which is hooked up with the 7-segment display), and 3 pushbuttons.
+This shield/daughterboard is for the NodeMCU V2 (also known as NodeMCU DevKit V1.0, kind of confusing) to allow a begineer to have some components to play around with. In this case, that includes a 7-segment display, an RGB LED (which is hooked up with the 7-segment display), and 3 pushbuttons.
 
 ### Arduino Library
 
@@ -26,3 +26,5 @@ Coming Soon!
 - Electro707 (Jamal Bouajjaj)
 #### KiCAD NODEMCU V2 Symbol
 - jdunmire -> [https://github.com/jdunmire/kicad-ESP8266](https://github.com/jdunmire/kicad-ESP8266)
+#### Some Icons
+- Arduino's IDE Repo -> [https://github.com/arduino/Arduino/blob/master/build/shared/lib/theme/buttons.svg](https://github.com/arduino/Arduino/blob/master/build/shared/lib/theme/buttons.svg)

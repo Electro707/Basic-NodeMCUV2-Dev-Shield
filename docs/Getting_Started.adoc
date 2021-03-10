@@ -18,31 +18,38 @@ You should have the following 2 parts:
 |A NodeMCU V2 Development Board
 |E707 Basic NodeMCU-V2 Shield
 
-a|image:NodeMCU-V2-CP2102-2.jpg[NodeMCU V2 Board Image, 250]
-|Cell in column 2, row 2
+a|image:NodeMCU-V2-CP2102-2.jpg[NodeMCU V2 Board Image]
+a|image:pcb-prev-1.png[E707 Shield]
 |===
 
 If the NodeMCU isn't already plugged into the shield (plug it into the 2 pin headers on the board). 
 
 NOTE: This assumes that the shield is already soldered. If it isn't and you have a plain PCB and components, checkout the Soldering Guide.
 
-== Software
-=== Arduino IDE
+=== Software
+==== Arduino IDE
 We will be using the Arduino IDE (Integrated Development Environment) to create programs and upload them to the NodeMCU. While it is the most common way of doing so, there are other tools and IDEs out there like MicroPython for examples. 
 
 If you don't have the Arduino IDE installed on you machine, you should do that now. The program's download page can be found at https://www.arduino.cc/en/software. They have a https://www.arduino.cc/en/Guide[Getting Started Guide] if you're having trouble installing the program.
 
-=== ESP8266 Board Package
+==== ESP8266 Board Package
 When you first install the Arduino IDE, it doesn't come with the ability to upload to ESP8266 based modules (like the NodeMCU), so we must add that. Open up the IDE and go into File->Preferences. In the __Additional Board Managers URLs__ section, enter the following URL:
  
  https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 This allows us to use the build-in Board Manager to install ESP8266 board. After that, exit out of the preferences menu (by clicking the __OK__ button) and go into Tools->Board->Board Manager. Once the Board Manager menu pops us, type in `esp8266` in the filter entry and press Enter. You should see an `esp8266 by ESP8266 Community` board popup. Click on the Install button for that board. The download and installation process might take a hot minute, so grab a quick cup of coffee in the meanwhile (or tea which is my personal favorite). After the installation process is complete, close out of the Board Manager (with the Close button). You are now able to compile and upload programs to ESP8266 based modules including the NodeMCU which we are using.
 
-=== Basic Dev. Shield Library
+== Basic Dev. Shield Library
+While you can go right ahead and start using the shield by reading the schematic and seeing which periferals connect to where, a library was made for this shield to make that process simpler. It includes pin definitions, some helper functions (for the temperature sensor for example), and examples. 
+
+To download the library, head over to it's repository on GitHub:
+
+ https://github.com/Electro707/Basic-NodeMCUV2-Dev-Shield-Library
+
+Then click on the Code->Download Zip button to get a .zip file of the library. In the Arduino IDE, go to Sketch->Include Library->Add .ZIP Library. Then browse to the download location of the library and select it. 
 
 == Lets Light This Place Up
-Now let's make some LEDs blink on the Dev. Shield. Go to and select Files->Examples->PLACEHOLDER->Blink. A new sketch should pop up with some pre-written code. 
+Now let's make some LEDs blink on the Dev. Shield. Go to and select Files->Examples->E707 Basic NodeMCU-V2 Shield->Blink. A new sketch should pop up with some pre-written code. 
 
 New let's select the right board to compile and upload to. In the Tools menu, for the Board select `NodeMCU 1.0 (ESP-12E Module)` board. The rest of the settings should be fines, and it should look like the following:
 

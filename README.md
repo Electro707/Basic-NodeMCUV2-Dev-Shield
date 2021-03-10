@@ -2,6 +2,8 @@
 
 # E707 Basic NodeMCU-V2 Shield 
 
+![PCB 3D Preview](.misc/pcb-prev-1.png)
+
 This shield/daughterboard is for the NodeMCU V2 (also known as NodeMCU DevKit V1.0, kind of confusing) to allow a begineer to have some components to play around with. In this case, that includes a 7-segment display, an RGB LED (which is hooked up with the 7-segment display), and 3 pushbuttons.
 
 ### Arduino Library

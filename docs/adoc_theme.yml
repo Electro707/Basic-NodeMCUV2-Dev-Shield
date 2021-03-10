@@ -1,0 +1,6 @@
+extends: default
+image:
+    align: center
+table:
+    image:
+        align: center

@@ -390,6 +390,7 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -403,7 +404,7 @@
     "meta": {
       "version": 0
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "/run/media/electro/A132-83BC/Kicad/Page Layouts/No Logo.kicad_wks",
     "plot_directory": "./",
     "spice_adjust_passive_values": false,
@@ -413,7 +414,7 @@
   },
   "sheets": [
     [
-      "b9eb996d-e35f-454e-823f-e3b679772dcf",
+      "f8848325-23e3-4eb7-b44e-1d6ac3eff9ce",
       ""
     ]
   ],

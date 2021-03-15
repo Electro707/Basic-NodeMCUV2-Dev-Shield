@@ -343,7 +343,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "V1.kicad_pro",
+    "filename": "PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -414,7 +414,7 @@
   },
   "sheets": [
     [
-      "f8848325-23e3-4eb7-b44e-1d6ac3eff9ce",
+      "7911fd63-5504-4b22-9048-69101521ac7f",
       ""
     ]
   ],

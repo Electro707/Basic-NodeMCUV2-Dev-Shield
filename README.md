@@ -18,6 +18,12 @@ The PCB files can be found in the `KiCAD Files` folder.
 
 There are different folders for different PCB layouts. More details can be found in [KiCAD_Files/README.md](KiCAD_Files/README.md)
 
+#### PCB Panel
+
+There is a panel (not tested tough) of the PCB for mass-production:
+
+![Panel Picture](.misc/PCB-S-Panelization202103181252.png)
+
 ##### NOTE: If you have KiCAD 5.1.9 or lower, the KiCAD files will not open as it was designed with KiCAD 5.99 (the alpha/beta version of KiCAD V6).
 
 ### Docs 

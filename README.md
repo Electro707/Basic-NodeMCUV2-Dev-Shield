@@ -1,5 +1,3 @@
-# NOTE: This is a pre-release of the shield/daughterboard, and it's still in development (mainly docs). 
-
 # E707 Basic NodeMCU-V2 Shield 
 
 ![PCB 3D Preview](.misc/Screenshot_20210317_004601.png)

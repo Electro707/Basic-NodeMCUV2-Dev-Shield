@@ -1,4 +1,4 @@
-19435462054431211
+19441949657474693
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -44919,6 +44919,13 @@ usb usb-c 2.0 pd
 20
 17
 Connector_USB
+USB_C_Receptacle_JAE_DX07S016JA1R1500
+USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780
+USB C Type-C Receptacle SMD USB 2.0
+0
+22
+17
+Connector_USB
 USB_C_Receptacle_JAE_DX07S024WJ1R350
 http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ117219.pdf
 USB C Type-C Receptacle SMD
@@ -49237,6 +49244,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+CustomFootprints
+0.8mm-Drill
+
+
+0
+0
+0
+CustomFootprints
+JLC_Assembly_Tooling
+
+
+0
+0
+0
 CustomFootprints
 NPN_5x5mm
 
@@ -62531,6 +62552,13 @@ HVQFN NoLead
 67
 41
 Package_DFN_QFN
+ISSI-QFN-44_1EP_5x5_P0.4mm
+https://www.lumissil.com/assets/pdf/core/IS31FL3236A_DS.pdf
+ISSI QFN 44 5x5mm
+0
+45
+45
+Package_DFN_QFN
 Infineon_MLPQ-16-14-1EP_4x4mm_P0.5mm
 MLPQ 32 leads, 7x7mm, 0.127mm stencil (https://www.infineon.com/dgdl/Infineon-AN1170-AN-v05_00-EN.pdf?fileId=5546d462533600a40153559ac3e51134)
 mlpq 32 7x7mm
@@ -75111,7 +75139,7 @@ Wi-Fi Module
 22
 RF_Module
 ESP-WROOM-02
-http://espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
+https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
 ESP WROOM-02 espressif esp8266ex
 0
 19

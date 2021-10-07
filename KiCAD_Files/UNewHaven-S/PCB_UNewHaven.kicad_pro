@@ -111,7 +111,8 @@
         "min_through_hole_diameter": 0.30479999999999996,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997
+        "min_via_diameter": 0.39999999999999997,
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
@@ -371,7 +372,7 @@
       }
     ],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_colors": null
   },
@@ -409,6 +410,12 @@
       "version": 0
     },
     "net_format_name": "KiCad",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0
+    },
     "page_layout_descr_file": "../PageLayout.kicad_wks",
     "plot_directory": "./",
     "spice_adjust_passive_values": false,
@@ -418,7 +425,7 @@
   },
   "sheets": [
     [
-      "4f2fff9c-69eb-4450-8633-d523f5fc1329",
+      "e6166cf4-0ef5-41a3-b367-24c1cfe4b739",
       ""
     ]
   ],
